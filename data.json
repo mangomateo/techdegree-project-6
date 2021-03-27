@@ -11,7 +11,7 @@
                            "public/images/project1-02.png", 
                            "public/images/project1-03.png"]
         },
-        ,{
+        {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
             "description":  "An application that used pagination to display a large amount of student data.",
@@ -56,6 +56,6 @@
             "image_urls": ["public/images/project5-01.png", 
                            "public/images/project5-02.png", 
                            "public/images/project5-03.png"]
-        },
+        }
     ]
 }
