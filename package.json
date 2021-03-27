@@ -2,7 +2,7 @@
   "name": "techdegree-project-6",
   "version": "1.0.0",
   "description": "static node.js and express website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mangomateo/techdegree-project-6#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "pug": "^3.0.2"
   }
 }

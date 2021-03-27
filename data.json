@@ -1,61 +1,91 @@
 {
-    "projects": [
-        {
-            "id": 0,
-            "project_name": "Random Quote Generator",
-            "description":  "An application that prints a random quote from a set of quote objects.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://mangomateo.github.io/techdegree-project-1/",
-            "github_link": "https://github.com/mangomateo/techdegree-project-1",
-            "image_urls": ["public/images/project1-01.png", 
-                           "public/images/project1-02.png", 
-                           "public/images/project1-03.png"]
-        },
-        {
-            "id": 1,
-            "project_name": "Data Pagination and Filtering",
-            "description":  "An application that used pagination to display a large amount of student data.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://mangomateo.github.io/techdegree-project-2/",
-            "github_link": "https://github.com/mangomateo/techdegree-project-2",
-            "image_urls": ["public/images/project2-01.png", 
-                           "public/images/project2-02.png", 
-                           "public/images/project2-03.png"]
-        },
-        {
-            "id": 2,
-            "project_name": "Interactive Form",
-            "description":  "A dynamic form that features real-time form validation and interactivity based on user inputs.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://mangomateo.github.io/techdegree-project-3/",
-            "github_link": "https://github.com/mangomateo/techdegree-project-3",
-            "image_urls": ["public/images/project3-01.png", 
-                           "public/images/project3-02.png", 
-                           "public/images/project3-03.png"]
-        },
-        {
-            "id": 3,
-            "project_name": "Object Oriented Game Show App",
-            "description":  "A dynamic form that features real-time form validation and interactivity based on user inputs.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://mangomateo.github.io/techdegree-project-4/",
-            "github_link": "https://github.com/mangomateo/techdegree-project-4",
-            "image_urls": ["public/images/project3-01.png", 
-                           "public/images/project3-02.png", 
-                           "public/images/project3-03.png",
-                           "public/images/project3-04.png",
-                           "public/images/project3-05.png"]
-        },
-        {
-            "id": 4,
-            "project_name": "Public API Requests",
-            "description":  "A dynamic form that features real-time form validation and interactivity based on user inputs.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://mangomateo.github.io/techdegree-project-5/",
-            "github_link": "https://github.com/mangomateo/techdegree-project-5",
-            "image_urls": ["public/images/project5-01.png", 
-                           "public/images/project5-02.png", 
-                           "public/images/project5-03.png"]
-        }
-    ]
+	"projects": [
+		{
+			"id": 0,
+			"project_name": "Random Quote Generator",
+			"description": "An application that prints a random quote from a set of quote objects.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "https://mangomateo.github.io/techdegree-project-1/",
+			"github_link": "https://github.com/mangomateo/techdegree-project-1",
+			"image_urls": [
+				"public/images/project1-01.png",
+				"public/images/project1-02.png",
+				"public/images/project1-03.png"
+			]
+		},
+		{
+			"id": 1,
+			"project_name": "Data Pagination and Filtering",
+			"description": "An application that used pagination to display a large amount of student data.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "https://mangomateo.github.io/techdegree-project-2/",
+			"github_link": "https://github.com/mangomateo/techdegree-project-2",
+			"image_urls": [
+				"public/images/project2-01.png",
+				"public/images/project2-02.png",
+				"public/images/project2-03.png"
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "Interactive Form",
+			"description": "A dynamic form that features real-time form validation and interactivity based on user inputs.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "https://mangomateo.github.io/techdegree-project-3/",
+			"github_link": "https://github.com/mangomateo/techdegree-project-3",
+			"image_urls": [
+				"public/images/project3-01.png",
+				"public/images/project3-02.png",
+				"public/images/project3-03.png"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "Object Oriented Game Show App",
+			"description": "A dynamic form that features real-time form validation and interactivity based on user inputs.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "https://mangomateo.github.io/techdegree-project-4/",
+			"github_link": "https://github.com/mangomateo/techdegree-project-4",
+			"image_urls": [
+				"public/images/project3-01.png",
+				"public/images/project3-02.png",
+				"public/images/project3-03.png",
+				"public/images/project3-04.png",
+				"public/images/project3-05.png"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "Public API Requests",
+			"description": "A dynamic form that features real-time form validation and interactivity based on user inputs.",
+			"technologies": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"live_link": "https://mangomateo.github.io/techdegree-project-5/",
+			"github_link": "https://github.com/mangomateo/techdegree-project-5",
+			"image_urls": [
+				"public/images/project5-01.png",
+				"public/images/project5-02.png",
+				"public/images/project5-03.png"
+			]
+		}
+	]
 }
