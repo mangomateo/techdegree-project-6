@@ -12,9 +12,9 @@
 			"live_link": "https://mangomateo.github.io/techdegree-project-1/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-1",
 			"image_urls": [
-				"public/images/project1-01.png",
-				"public/images/project1-02.png",
-				"public/images/project1-03.png"
+				"../images/project1-01.png",
+				"../images/project1-02.png",
+				"../images/project1-03.png"
 			]
 		},
 		{
@@ -29,9 +29,9 @@
 			"live_link": "https://mangomateo.github.io/techdegree-project-2/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-2",
 			"image_urls": [
-				"public/images/project2-01.png",
-				"public/images/project2-02.png",
-				"public/images/project2-03.png"
+				"../images/project2-01.png",
+				"../images/project2-02.png",
+				"../images/project2-03.png"
 			]
 		},
 		{
@@ -46,9 +46,9 @@
 			"live_link": "https://mangomateo.github.io/techdegree-project-3/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-3",
 			"image_urls": [
-				"public/images/project3-01.png",
-				"public/images/project3-02.png",
-				"public/images/project3-03.png"
+				"../images/project3-01.png",
+				"../images/project3-02.png",
+				"../images/project3-03.png"
 			]
 		},
 		{
@@ -63,11 +63,9 @@
 			"live_link": "https://mangomateo.github.io/techdegree-project-4/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-4",
 			"image_urls": [
-				"public/images/project3-01.png",
-				"public/images/project3-02.png",
-				"public/images/project3-03.png",
-				"public/images/project3-04.png",
-				"public/images/project3-05.png"
+				"../images/project4-01.png",
+				"../images/project4-02.png",
+				"../images/project4-03.png"
 			]
 		},
 		{
@@ -82,9 +80,9 @@
 			"live_link": "https://mangomateo.github.io/techdegree-project-5/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-5",
 			"image_urls": [
-				"public/images/project5-01.png",
-				"public/images/project5-02.png",
-				"public/images/project5-03.png"
+				"../images/project5-01.png",
+				"../images/project5-02.png",
+				"../images/project5-03.png"
 			]
 		}
 	]
