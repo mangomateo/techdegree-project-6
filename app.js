@@ -37,14 +37,14 @@ app.get('/projects/:id', (req, res) => {
 app.use((req, res, next) => {
   const err = new Error(`Sorry, I haven't gotten around to building that page yet...`);
   err.status = 404;
-  next(err);
-});
-
-app.use((err, req, res, next) => {
   res.render('page-not-found', { err });
 });
 
-// Global error handler?
+// Global error handler
+app.use((err, req, res, next) => {
+  err.status = 500;
+  res.render('error', { err });
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
