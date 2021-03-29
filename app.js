@@ -33,6 +33,19 @@ app.get('/projects/:id', (req, res) => {
                         });
 });
 
+// 404 Error if a non-existent route is entered
+app.use((req, res, next) => {
+  const err = new Error(`Sorry, I haven't gotten around to building that page yet...`);
+  err.status = 500;
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  err.status === 404 ? res.render('page-not-found', { err }) : res.render('error', { err });
+});
+
+// Global error handler?
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
