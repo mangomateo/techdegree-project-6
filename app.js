@@ -36,12 +36,12 @@ app.get('/projects/:id', (req, res) => {
 // 404 Error if a non-existent route is entered
 app.use((req, res, next) => {
   const err = new Error(`Sorry, I haven't gotten around to building that page yet...`);
-  err.status = 500;
+  err.status = 404;
   next(err);
 });
 
 app.use((err, req, res, next) => {
-  err.status === 404 ? res.render('page-not-found', { err }) : res.render('error', { err });
+  res.render('page-not-found', { err });
 });
 
 // Global error handler?

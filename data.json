@@ -54,11 +54,14 @@
 		{
 			"id": 3,
 			"project_name": "Object Oriented Game Show App",
-			"description": "A dynamic form that features real-time form validation and interactivity based on user inputs.",
+			"description": "A 'Wheel of Fortune' style game that gives the user a limited numer of lives to guess the secret phrase.",
 			"technologies": [
 				"HTML",
 				"CSS",
-				"JavaScript"
+				"JavaScript",
+				"Object Oriented Programming",
+				"Event Handling",
+				"DOM Traversal"
 			],
 			"live_link": "https://mangomateo.github.io/techdegree-project-4/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-4",
@@ -71,11 +74,14 @@
 		{
 			"id": 4,
 			"project_name": "Public API Requests",
-			"description": "A dynamic form that features real-time form validation and interactivity based on user inputs.",
+			"description": "A sample employee directory featuring data pulled in from an external API. A modal window with additional information for each employee is displayed when an employee card is clicked. This project also features a searchbox that can filter the employee directory based on a search query.",
 			"technologies": [
 				"HTML",
 				"CSS",
-				"JavaScript"
+				"JavaScript",
+				"AJAX",
+				"Async/Await",
+				"Fetch API"
 			],
 			"live_link": "https://mangomateo.github.io/techdegree-project-5/",
 			"github_link": "https://github.com/mangomateo/techdegree-project-5",
