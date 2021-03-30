@@ -362,3 +362,11 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+
+/*
+  Error Message Styles
+*/
+.error-meme {
+  padding: 1em;
+}

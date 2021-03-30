@@ -37,13 +37,17 @@ app.get('/projects/:id', (req, res) => {
 app.use((req, res, next) => {
   const err = new Error(`Sorry, I haven't gotten around to building that page yet...`);
   err.status = 404;
-  res.render('page-not-found', { err });
+  next(err);
 });
 
 // Global error handler
 app.use((err, req, res, next) => {
-  err.status = 500;
-  res.render('error', { err });
+  if (err.status === 404) {
+    res.render('page-not-found', { err });
+  } else {
+    err.message = 'Yikes! Something went wrong!';
+    res.render('error', { err });
+  }
 });
 
 app.listen(port, () => {
