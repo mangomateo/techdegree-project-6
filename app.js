@@ -35,7 +35,7 @@ app.get('/projects/:id', (req, res) => {
 
 // 404 Error if a non-existent route is entered
 app.use((req, res, next) => {
-  const err = new Error(`Sorry, I haven't gotten around to building that page yet...`);
+  const err = new Error('Page not found!');
   err.status = 404;
   next(err);
 });
@@ -45,9 +45,11 @@ app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.render('page-not-found', { err });
   } else {
-    err.message = 'Yikes! Something went wrong!';
+    err.message = `Something went wrong!`;
+    err.status = 500;
     res.render('error', { err });
   }
+  console.log(`${ err.status }: ${ err.message }`);
 });
 
 app.listen(port, () => {
