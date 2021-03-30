@@ -51,6 +51,7 @@ h6{
 
 p{
   font-size: 15px;
+  font-family: 'Hind', sans-serif;
   color: #666;
 }
 
@@ -242,7 +243,7 @@ nav a span {
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Caveat', cursive;;
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 2.25px;
@@ -365,8 +366,19 @@ nav a span {
 
 
 /*
-  Error Message Styles
+  Custom CSS
 */
 .error-meme {
   padding: 1em;
 }
+
+/*
+  Error Message Styles
+*/
+.main-greeting {
+  font-family: 'Special Elite', cursive;
+}
+
+/* .cell > h5 {
+  font-family: 'Caveat', cursive;
+} */
