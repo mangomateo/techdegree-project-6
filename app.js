@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const path = require('path');
 const projectData = require('./data.json');
 const { projects } = projectData;
 const port = 3000;

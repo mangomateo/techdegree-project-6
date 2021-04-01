@@ -11,7 +11,7 @@ block content
     .projects-box.box.grid
   
       each project in projectData.projects
-        .cell
+        .cell.img-effect
           a(href=`projects/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`, alt=`Thumbnail - ${project.project_name}`)
             h5= `${project.project_name}`

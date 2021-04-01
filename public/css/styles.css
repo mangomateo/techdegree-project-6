@@ -372,13 +372,16 @@ nav a span {
   padding: 1em;
 }
 
-/*
-  Error Message Styles
-*/
 .main-greeting {
   font-family: 'Special Elite', cursive;
 }
 
-/* .cell > h5 {
-  font-family: 'Caveat', cursive;
-} */
+.img-effect {
+  filter: grayscale(100%);
+}
+
+.img-effect:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  filter: grayscale(0%);
+}
