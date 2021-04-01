@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const projectData = require('./data.json');
 const { projects } = projectData;
 const port = 3000;
@@ -21,19 +22,20 @@ app.get('/about', (req, res) => {
 
 // Dynamic route that will load page with customized project data based on the ID entered in the URL
 app.get('/projects/:id', (req, res) => {
+  const id = req.params.id;
   res.render('project', { 
-                          name: projects[req.params.id].project_name,
-                          desc: projects[req.params.id].description,     
-                          techs: projects[req.params.id].technologies,
-                          liveLink: projects[req.params.id].live_link,
-                          repoLink: projects[req.params.id].github_link,
-                          imgOne: projects[req.params.id].image_urls[0],
-                          imgTwo: projects[req.params.id].image_urls[1],
-                          imgThree: projects[req.params.id].image_urls[2]
+                          name: projects[id].project_name,
+                          desc: projects[id].description,     
+                          techs: projects[id].technologies,
+                          liveLink: projects[id].live_link,
+                          repoLink: projects[id].github_link,
+                          imgOne: projects[id].image_urls[0],
+                          imgTwo: projects[id].image_urls[1],
+                          imgThree: projects[id].image_urls[2]
                         });
 });
 
-// 404 Error if a non-existent route is entered
+// Capture 404 errors
 app.use((req, res, next) => {
   const err = new Error('Page not found!');
   err.status = 404;
@@ -43,13 +45,14 @@ app.use((req, res, next) => {
 // Global error handler
 app.use((err, req, res, next) => {
   if (err.status === 404) {
-    res.render('page-not-found', { err });
+    console.log('ERROR: PAGE NOT FOUND');
+    res.status(404).render('page-not-found', { err });
   } else {
-    err.message = `Something went wrong!`;
+    console.log('ERROR: SOMETHING WENT WRONG');
+    err.message = 'Something went wrong!';
     err.status = 500;
-    res.render('error', { err });
+    res.status(500).render('error', { err });
   }
-  console.log(`${ err.status }: ${ err.message }`);
 });
 
 app.listen(port, () => {
